@@ -1,5 +1,9 @@
 # Wallet project
 This project aims at providing a Google Wallet based access to embedded devices. 
+Given the novelty of the topic, the project wil be developed with Agile methodology and will be developen in waves.
+
+## Wave 1
+
 
 # Notes
 Some link for storage of secret credentials:
