@@ -1,2 +1,2 @@
-# Wallet
-Provide access to embedded devices through Google Wallet credentials 
+# Wallet project
+This project aims at providing a Google Wallet based access to embedded devices. 
