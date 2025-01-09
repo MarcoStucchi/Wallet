@@ -1,0 +1,20 @@
+the proposed Lightweight Solution for Certificate-Based Validation on an Embedded Device adopts an offline validation against a root CA certificate present on the device. Is this process enough to guarantee that the mobile phone holder is the person it represents? does it relies on mobile phone's secure access (e.g. fingerprint)?
+
+what if the google
+To enable secure identity validation with certificates directly from a Google Wallet pass, we’ll focus on a solution tailored to the constraints of embedded devices. Here's the step-by-step approach:
+
+1. Goals
+Offline Validation: Validate certificates locally without constant network access.
+Efficient Use of Space: Fit certificates or their components into the Google Wallet pass.
+Lightweight Processing: Ensure cryptographic validation works within the constraints of embedded systems.
+2. Solution Overview
+Optimize Certificate Size:
+
+Use a compact binary DER format (instead of PEM) to reduce certificate size.
+Strip unnecessary extensions from the certificate.
+Embed Certificate in Wallet Pass:
+
+Directly embed the certificate (or its components) in the pass, ensuring it fits within the data limits.
+Local Validation on Device:
+
+Use a lightweight cryptographic library for certificate parsing and signature validation.
