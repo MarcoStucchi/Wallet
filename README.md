@@ -5,7 +5,7 @@ Given the novelty of the topic, the project wil be developed with Agile methodol
 ## Wave 1
 
 
-# Notes
+# Documentation
 Some link for storage of secret credentials:
 
 [Using secrets in github actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
